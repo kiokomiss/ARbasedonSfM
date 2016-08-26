@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="NameAndType">
+  <Class Name="VisualizerListener" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>main.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbstractFeatureMatcher" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>AbstractFeatureMatcher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BundleAdjuster" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>BundleAdjuster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraCalibration" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAEAEADAEAABAAAAAAAAAAAAAAIkAA=</HashCode>
+      <FileName>CameraCalibration.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Distance" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAkAQAJAAAAoAFAAYAAAAQAUAhCCAABGAgAAAIjEQCA=</HashCode>
+      <FileName>Distance.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IDistance" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAABAAAAgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IDistance.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IFeatureMatcher" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IFeatureMatcher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MultiCameraDistance" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEgBABAQAAIAFABBAEAEAEUYBAAAAAAAAAAAoAVAQI=</HashCode>
+      <FileName>MultiCameraDistance.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MultiCameraPnP" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABEAAAgAABAACABRAQAAISgAASEQAEQAAAEAAA=</HashCode>
+      <FileName>MultiCameraPnP.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OFFeatureMatcher" Collapsed="true">
+    <Position X="3.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAgAAAAAAAAACAEAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>OFFeatureMatcher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PatternDetector" Collapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAIACAAQgAABAAAAAAAIEACQBCBABAgUIAEgQ=</HashCode>
+      <FileName>PatternDetector.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RichFeatureMatcher" Collapsed="true">
+    <Position X="5.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAAAAgAAAAAAAAAAAMAAAAAAAgAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>RichFeatureMatcher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SfMUpdateListener" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>SfMUpdateListener.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="CloudPoint" Collapsed="true">
+    <Position X="8.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAgAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Pattern" Collapsed="true">
+    <Position X="10" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAACYAAAAAAAAIIAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Pattern.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PatternTrackingInfo" Collapsed="true">
+    <Position X="8.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAACAAAAAAIAAAAAAAAAAQAAAAAAAAQAAA=</HashCode>
+      <FileName>Pattern.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
